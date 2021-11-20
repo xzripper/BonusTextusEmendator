@@ -197,7 +197,7 @@ public class BonusTextusEmendatorMain extends JFrame {
                     }
 
                     catch (Exception Error) {
-                        Message("Unknown error while writing file.", JOptionPane.ERROR_MESSAGE);
+                        Message("Unknown error while reading file.", JOptionPane.ERROR_MESSAGE);
                         Message(String.format("Exception: \"%s\"", Error.getMessage()), JOptionPane.ERROR_MESSAGE);
                     }
 
